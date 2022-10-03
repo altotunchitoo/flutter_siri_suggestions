@@ -130,7 +130,7 @@ NSString *kFn_deleteSavedUserActivitiesWithPersistentIdentifiers = @"deleteSaved
             
             // SIMULATOR HAS NOT RESPOND SELECTOR
             #if !(TARGET_IPHONE_SIMULATOR)
-            activity.suggestedInvocationPhrase = suggestedInvocationPhrase;
+           // activity.suggestedInvocationPhrase = suggestedInvocationPhrase;
             #endif
             
         }
